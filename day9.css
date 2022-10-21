@@ -1,0 +1,74 @@
+.block{
+    animation-name: anim_block;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: aqua;
+    width: 40px;
+    height: 40px;
+    
+    /* transform-origin: left top;
+    transform: translateX(50px); */
+    transform-origin: center;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}
+@keyframes anim_block {
+    from{
+        width: 60px;
+        height: 60px;
+
+    }
+     
+    to{
+          transform: scaleY(-2)
+      
+        
+    }
+  
+ 
+    
+}
+
+/* .block-2{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    transform: translateY(-250px);
+    
+}
+
+ .block-3{
+    background-color: brown;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    transform-origin: center;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+}  
+
+.block-4{
+    background-color: blueviolet;
+    width: 150px;
+    height: 150px;
+    transform: rotate(45deg);
+    transform-origin: center;
+    position: absolute;
+    top: 300px;
+    left: 260px;
+}
+
+/* .block:hover{
+    background-color: black;
+    transform:rotate(45deg);
+    transform-origin: center;
+    width: 600px;
+    height: 600px;
+    
+}
+.block-3:active{
+    background-color: aquamarine;
+} */
+

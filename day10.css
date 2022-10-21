@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.block{
+    background-color: brown;
+    width: 33.33%;
+    height: 200px;
+    float: left;
+    border: 0.5px;
+    border: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+.block-2 {
+    background-color: aqua;
+    width: 33.33%;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    border: 0.5px;
+    border: black;
+    border-style: solid;
+ }  
+ .block-3 {
+    background-color: blue;
+    width: 33.33%;
+    height: 200px;
+    float: left;
+    box-sizing: border-box;
+    border: 0.5px;
+    border: black;
+    border-style: solid;
+ } 

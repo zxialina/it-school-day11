@@ -1,0 +1,47 @@
+.button {
+    background-color: gray;
+    width: 100px;
+    height: 150px;
+    display: inline-block;
+    margin: 10px, 20px, 30px, 40px;
+}
+.block{
+   width: 60px;
+   height: 60px;
+   display: block;
+   
+}
+.red{
+    
+    background-color: red; 
+    margin: 10px;
+    padding: 10px;
+    border-width: 30px;
+   border-style: solid;
+   border-color: darkred;
+   
+    
+}
+.green{ 
+    width: 260px;
+    height: 260px;
+    
+    margin: 10px;
+    border-width: 20px;
+    border-color: red blue green black;
+    border-style: solid;
+    padding: 10px;
+    
+}
+.blue{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+    margin: 10px;
+   
+    border-width: 10px;
+    border-color: white;
+    border-style: dashed;
+    padding: 10px 
+}
